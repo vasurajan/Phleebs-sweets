@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,66 @@
 </head>
 
 <body>
-
+  <header id="header">
+    <nav class="navbar navbar-expand-lg px-4">
+      <!-- 
+    https://www.iconfinder.com/icons/2427887/dessert_donut_doughnut_fat_sweets_icon
+    Creative Commons (Attribution 3.0 Unported);
+    https://www.iconfinder.com/korawan_m
+         -->
+      <a href="#" class="navbar-brand">
+        <img src="img/logo.svg" alt="main icon">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav text-capitalize mx-auto">
+          <li class="nav-item active">
+            <a href="#header" class="nav-link">home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#about" class="nav-link">about</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#store" class="nav-link">store</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#services" class="nav-link">services</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#cakes" class="nav-link">order</a>
+          </li>
+        </ul>
+        <div class="nav-info-items d-none d-lg-flex">
+          <!-- single info -->
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3">
+              <i class="fas fa-phone"></i>
+            </span>
+            <p class="mb-0"> +91- 9876543210 </p>
+          </div>
+          <!-- single info -->
+          <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+            <span class="cart-info__icon mr-lg-3">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            <p class="mb-0 text-capitalize">
+              <span id="item-count">2</span>
+              items - $
+              <span class="item-total">
+                10.49
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- end of banner -->
+  </header>
   <!-- icons -->
   <!-- 
     https://www.iconfinder.com/icons/2427887/dessert_donut_doughnut_fat_sweets_icon
