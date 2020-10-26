@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @import url("https://fonts.googleapis.com/css?family=Kaushan+Script"); */
 
 :root {
   --mainPink: #ef7998;
@@ -11,9 +11,55 @@
 }
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: "Kaushan Script", cursive; */
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
 
+/* nav links */
+.navbar-toggler {
+  outline: none !important;
+}
+
+.toggler-icon {
+  font-size: 40px;
+  font-size: 2.5rem;
+  color: #ef7998;
+}
+
+.nav-link {
+  color: #ef7998;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+.nav-link:hover {
+  color: #000;
+}
+
+/* cart styles */
+.cart-info__icon {
+  color: #000;
+  cursor: pointer;
+}
+
+.cart-info {
+  /* border: 1.6px solid #000; */
+  border: 0.1rem solid #000;
+  color: #000;
+  border-radius: 0.25rem;
+  /* padding: 6.4px 9.6px; */
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+
+.cart-info:hover {
+  background: #ef7998;
+  border-color: #ef7998;
+  color: #fff;
+}
+.cart-info:hover .cart-info__icon {
+  color: #fff;
+}
