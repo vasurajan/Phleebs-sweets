@@ -25,23 +25,23 @@ body {
 .toggler-icon {
   font-size: 40px;
   font-size: 2.5rem;
-  color: #ef7998;
+  color:var(--mainBlack);
 }
 
 .nav-link {
-  color: #ef7998;
+  color:var(--mainBlack);
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   font-size: 24px;
   font-size: 1.5rem;
 }
 .nav-link:hover {
-  color: #000;
+  color: rgb(223, 155, 9);
 }
 
 /* cart styles */
 .cart-info__icon {
-  color: #000;
+  color: rgb(133, 97, 19);
   cursor: pointer;
 }
 
@@ -56,8 +56,8 @@ body {
 }
 
 .cart-info:hover {
-  background: #ef7998;
-  border-color: #ef7998;
+  background:var(--mainBlack);
+  border-color: var(--mainBlack);
   color: #fff;
 }
 .cart-info:hover .cart-info__icon {
